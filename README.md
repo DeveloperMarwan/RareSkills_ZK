@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DeveloperMarwan/RareSkills_ZK/blob/main/Groth16_Final.ipynb)
 
-A from-scratch Python implementation of the Groth16 zk-SNARK proving system over the BN128 (alt_bn128) curve. It was written as the capstone of the RareSkills Zero Knowledge Bootcamp (August to September 2023 cohort) and follows the RareSkills article [Groth16](https://rareskills.io/post/groth16).
+A Python implementation of the Groth16 zk-SNARK proving system over the BN128 (alt_bn128) curve. I wrote this notebook from scratch as the capstone of the RareSkills Zero Knowledge Bootcamp (August to September 2023 cohort), adding a new section each week of the six-week program. It follows the RareSkills article [Groth16](https://rareskills.io/post/groth16). Curve and field arithmetic come from `py_ecc` and `galois`; the Groth16 logic itself is my own code.
 
 The notebook runs the whole pipeline end to end on a small example circuit, and the final pairing check confirms that the proof verifies.
 
